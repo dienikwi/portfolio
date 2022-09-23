@@ -60,3 +60,43 @@ figure {
     z-index: 1;
     opacity: 50%;
 }
+
+@media (max-width: 600px) {
+    body {
+        overflow-y: scroll; /* cria novamente a barra de rolagem vertical */
+        overflow-x: scroll; /* cria novamente a barra de rolagem horizontal */
+    }
+
+    #textoApresentacao {
+        width: 100%;
+    }
+    
+    figure {
+        width: 100%;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #fotoPerfil {
+        width: 100%;
+        align-items: center;
+        padding: 0;
+        margin: 5% 0 0 0;
+    }
+
+    #fotoPerfil img {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #dieniferNome {
+        font-size: 1.7rem;
+    }
+
+    .canto {
+        margin-top: -50%;
+    }
+
+}

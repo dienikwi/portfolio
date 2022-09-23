@@ -58,10 +58,6 @@ a:hover {
 }
 
 @media (max-width: 600px) {
-    body {
-        overflow-y: scroll; /* cria novamente a barra de rolagem vertical */
-        overflow-x: scroll; /* cria novamente a barra de rolagem horizontal */
-    }
     .menu {
         width: 100%;
         text-align: center;
