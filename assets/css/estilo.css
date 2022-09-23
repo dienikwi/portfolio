@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat); /* pega uma fonte do google */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    background-color: rgb(41, 41, 41);
+    color: rgb(231, 231, 231);
+}
+
+.centro {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 10% 5% 10%;
+}
+
+.menu {
+    height: 2rem;
+    width: 50%;
+    text-align: right;
+}
+
+#titulo {
+    width: 50%;
+    text-align: left;
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 10px 10px;
+    position: relative;
+}
