@@ -1,0 +1,44 @@
+* {
+    background-image: url('assets/images/fotoPerfilDienifer.png');
+}
+
+body {
+    overflow-y: hidden; /* não cria barra de rolagem vertical */
+    overflow-x: hidden; /* não cria barra de rolagem horizontal */
+}
+
+#textoApresentacao {
+    width: 50%;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 2;
+}
+
+figure {
+    width: 50%;
+    align-items: right;
+    z-index: 2;
+}
+
+#fotoPerfil img {
+    width: 80%;
+    margin-left: 20%;
+}
+
+#bem-vindo {
+    color: #9300a9;
+    font-weight: bold;
+}
+
+#dieniferNome {
+    color: #9300a9;
+    padding-bottom: 2%;
+}
+
+.canto {
+	margin-top: -25%;
+    margin-left: -20%;
+    z-index: 1;
+    opacity: 50%;
+}

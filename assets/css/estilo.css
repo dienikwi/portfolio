@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
     background-color: rgb(41, 41, 41);
-    color: rgb(231, 231, 231);
+    color: rgb(240, 240, 240);
 }
 
 .centro {
@@ -21,13 +21,37 @@
     text-align: right;
 }
 
+#favicon {
+    width: 4%;
+}
+
 #titulo {
-    width: 50%;
+    width: 45%;
     text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1%;
 }
 
 .menu a {
     text-decoration: none;
     margin: 10px 10px;
     position: relative;
+}
+
+#cv {
+    background-color: #770089;
+    padding: 1.5%;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: #770089;
+    font-weight: bold;
+}
+
+#cv:hover {
+    background-color: #9300a9;
+    color: rgb(240, 240, 240);
+    font-weight: normal;
 }
