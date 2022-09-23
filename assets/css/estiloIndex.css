@@ -32,8 +32,26 @@ figure {
 }
 
 #dieniferNome {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
     color: #9300a9;
     padding-bottom: 2%;
+    margin: 0 auto;
+    border-right: 2px solid #9300a9;
+}
+
+.animation {
+    animation: blinkCursor 500ms steps(40) infinite normal
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: #9300a9;
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
 
 .canto {

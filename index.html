@@ -6,7 +6,7 @@
     <link href="assets/css/estilo.css" rel="stylesheet" />
     <link href="assets/css/estiloIndex.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <script type="text/javascript" src="js/arq.js">
+    <script type="text/javascript" src="assets/js/arquivo.js">
     </script>
 </head>
 
@@ -17,14 +17,17 @@
         <nav class="menu">
             <a href="index.html"> Sobre mim </a>
             <a href="projetos.html"> Projetos </a>
-            <a href="https://docs.google.com/uc?export=dowload&id=12D0T0MJMX2YEgDmylIWqtUep4b_km-_2" id="cv"> Download CV </a>
+            <a href="https://docs.google.com/uc?export=dowload&id=12D0T0MJMX2YEgDmylIWqtUep4b_km-_2"
+               id="cv" target="_blank"> Download CV </a>
         </nav>
-    </div>
-    <!--div menu-->
+    </div> <!--div menu-->
     <div class="centro">
         <div id="textoApresentacao">
-            <label> Bem-vindo. </label> <label id="bem-vindo"> Eu sou </label>
-            <h1 id="dieniferNome"> Dienifer Kwiatkowski </h1>
+            <label> Bem-vindo. </label> <label id="bem-vindo"> Eu sou </label><br>
+            <label id="dieniferNome" class="animation"> </label><br>
+            <script>
+                frameLooper();
+            </script>
             <label>
                 Tenho paixão pela tecnologia e programação.
                 Sou estagiária em desenvolvimento full-stack na Sicredi.
@@ -36,7 +39,8 @@
         <figure id="fotoPerfil">
             <img src="assets/images/fotoPerfilDienifer.png">
         </figure>
-    </div><!--div apresentacao-->
+    </div>
+    <!--div apresentacao-->
     <div class="canto"><img src="assets/images/background.svg"></div>
 </body>
 
