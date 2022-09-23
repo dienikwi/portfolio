@@ -3,8 +3,12 @@
 }
 
 body {
-    overflow-y: hidden; /* não cria barra de rolagem vertical */
-    overflow-x: hidden; /* não cria barra de rolagem horizontal */
+    overflow-y: hidden; 
+    overflow-x: hidden;
+}
+
+#centro-apresentacao {
+    margin: -3% 10% 5% 10%;
 }
 
 #textoApresentacao {
@@ -54,6 +58,21 @@ figure {
     }
 }
 
+.icon-redes {
+    width: 10%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.redes {
+    z-index: 3;
+    align-items: left;
+}
+
+.redes a {
+    text-decoration: none;
+}
+
 .canto {
 	margin-top: -25%;
     margin-left: -20%;
@@ -97,6 +116,10 @@ figure {
 
     .canto {
         margin-top: -50%;
+    }
+
+    .redes {
+        margin-top: 4%;
     }
 
 }
