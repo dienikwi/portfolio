@@ -1,0 +1,21 @@
+#centro-projetos {
+    text-align: center;
+}
+.titulo-projetos-recentes {
+    width: 100%;
+}
+
+.titulo-projetos-recentes h1 {
+    color: #9300a9;
+    margin-bottom: 1%;
+    height: bold;
+}
+
+@media (max-width: 600px) {
+    .titulo-projetos-recentes h1 {
+        font-size: 20px;
+    }
+    .titulo-projetos-recentes label {
+        font-size: 15px;
+    }
+}
