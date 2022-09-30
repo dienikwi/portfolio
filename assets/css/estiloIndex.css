@@ -2,11 +2,6 @@
     background-image: url('assets/images/fotoPerfilDienifer.png');
 }
 
-body {
-    overflow-y: hidden; 
-    overflow-x: hidden;
-}
-
 #centro-apresentacao {
     margin: -3% 10% 5% 10%;
 }
@@ -81,11 +76,6 @@ figure {
 }
 
 @media (max-width: 600px) {
-    body {
-        overflow-y: scroll; /* cria novamente a barra de rolagem vertical */
-        overflow-x: scroll; /* cria novamente a barra de rolagem horizontal */
-    }
-
     #textoApresentacao {
         width: 100%;
     }
