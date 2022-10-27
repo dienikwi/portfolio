@@ -6,23 +6,7 @@
     <link href="assets/css/estilo.css" rel="stylesheet" />
     <link href="assets/css/estiloProjetos.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <script type="text/javascript" src="assets/js/arquivo.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <script type="text/javascript" src="assets/js/arquivo.js">
     </script>
 </head>
 
@@ -40,53 +24,111 @@
     <!--div menu-->
     <div class="centro" id="centro-projetos">
         <div class="titulo-projetos-recentes">
-            <h1> Projetos <span>recentes</span> </h1>
-            <label> Estes são alguns projetos que concluí recentemente... </label>
+            <h1> <span>Meus </span> projetos</h1>
+            <label> Informações e detalhes dos projetos </label>
         </div>
     </div>
-    <div class="carrosel">
-        <div class="wrapper">
-            <div class="carousel owl-carousel">
-                <a target="_blank" href="https://dkartedigital.netlify.app/">
-                    <div class="card" id="c1"></div>
-                </a></a>
-                <a target="_blank" href="https://dienikwi.github.io/siteAfrodite/">
-                    <div class="card" id="c2"></div>
-                </a>
-                <a target="_blank" href="https://calculadora-react-dienikwi.vercel.app/">
-                    <div class="card" id="c3"></div>
-                </a>
-                <a target="_blank" href="https://buscar-cep-react.vercel.app/">
-                    <div class="card" id="c4"></div>
-                </a>
-                <a target="_blank" href="https://lista-tarefas-react-beryl.vercel.app/">
-                    <div class="card" id="c5"></div>
-                </a>
+    <div class="card-projeto">
+        <figure>
+            <img src="./assets/images/foto4.jpg">
+        </figure>
+        <div class="card-texto">
+            <p>
+                Projeto para consulta de endereço com CEP criado com React.JS e
+                utilizando o serviço ViaCep.<br><br>
+                <b>Tecnologias utilizadas:</b><br><br>
+                &#8226 HTML<br>
+                &#8226 CSS<br>
+                &#8226 JavaScript<br>
+                &#8226 React.js
+            </p>
+            <div class="div-botoes">
+                <a target="_blank" href="https://github.com/dienikwi/buscar-cep-react">Acessar site</a>
+                <a target="_blank" href="https://github.com/dienikwi/buscar-cep-react">Ver código-fonte</a>
             </div>
         </div>
-
-        <script>
-            $(".carousel").owlCarousel({
-                loop: true,
-                margin: 25,
-                autoplay: true,
-                autoplayTimeout: 5000,
-                autoplayHoverPause: true,
-                nav: true,
-                navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
-                responsive: {
-                    0: {
-                        items: 1,
-                    },
-                    600: {
-                        items: 2,
-                    },
-                    1000: {
-                        items: 3,
-                    },
-                }
-            })
-        </script>
+    </div>
+    <hr>
+    <div class="card-projeto">
+        <figure>
+            <img src="./assets/images/foto1.jpg">
+        </figure>
+        <div class="card-texto">
+            <p>
+                Projeto porftólio para apresentar serviços de design gráfico.
+                <br><br>
+                <b>Tecnologias utilizadas:</b><br><br>
+                &#8226 HTML<br>
+                &#8226 CSS<br>
+                &#8226 JavaScript<br>
+                &#8226 Bootstrap
+            </p>
+            <div class="div-botoes">
+                <a target="_blank" href="https://dkartedigital.netlify.app/">Acessar site</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="card-projeto">
+        <figure>
+            <img src="./assets/images/foto3.jpg">
+        </figure>
+        <div class="card-texto">
+            <p>
+                Projeto simples de calculadora, criada com React.js.
+                Inspirada no design do conhecido aplicativo do IOS.<br><br>
+                <b>Tecnologias utilizadas:</b><br><br>
+                &#8226 HTML<br>
+                &#8226 CSS<br>
+                &#8226 JavaScript<br>
+                &#8226 React.js
+            </p>
+            <div class="div-botoes">
+                <a target="_blank" href="https://calculadora-react-dienikwi.vercel.app/">Acessar site</a>
+                <a target="_blank" href="https://github.com/dienikwi/calculadora-react">Ver código-fonte</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="card-projeto">
+        <figure>
+            <img src="./assets/images/foto5.jpg">
+        </figure>
+        <div class="card-texto">
+            <p>
+                Primeiro projeto criado com React.js para consolidar conhecimentos adquirido no curso de formação do
+                estágio que participo.<br><br>
+                <b>Tecnologias utilizadas:</b><br><br>
+                &#8226 HTML<br>
+                &#8226 CSS<br>
+                &#8226 JavaScript<br>
+                &#8226 React.js
+            </p>
+            <div class="div-botoes">
+                <a target="_blank" href="https://lista-tarefas-react-beryl.vercel.app/">Acessar site</a>
+                <a target="_blank" href="https://github.com/dienikwi/lista-tarefas-react">Ver código-fonte</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="card-projeto">
+        <figure>
+            <img src="./assets/images/foto2.jpg">
+        </figure>
+        <div class="card-texto">
+            <p>
+                Site criado para a faculdade (ADS) que simula
+                um e-commerce<br><br>
+                <b>Tecnologias utilizadas:</b><br><br>
+                &#8226 HTML<br>
+                &#8226 CSS<br>
+                &#8226 JavaScript<br>
+            </p>
+            <div class="div-botoes">
+                <a target="_blank" href="https://dienikwi.github.io/siteAfrodite/">Acessar site</a>
+                <a target="_blank" href="https://github.com/dienikwi/siteAfrodite">Ver código-fonte</a>
+            </div>
+        </div>
     </div>
 </body>
 

@@ -6,7 +6,22 @@
     <link href="assets/css/estilo.css" rel="stylesheet" />
     <link href="assets/css/estiloIndex.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <script type="text/javascript" src="assets/js/arquivo.js">
+    <script type="text/javascript" src="assets/js/arquivo.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     </script>
 </head>
 
@@ -51,7 +66,59 @@
             <img src="assets/images/fotoPerfilDienifer.png">
         </figure>
     </div>
-    <!--div apresentacao-->
+    <div class="centro" id="centro-projetos">
+        <div class="titulo-projetos-recentes">
+            <h1> Projetos <span>recentes</span> </h1>
+            <label> Estes são alguns projetos que concluí recentemente... </label>
+        </div>
+    </div>
+    <div class="carrosel">
+        <div class="wrapper">
+            <div class="carousel owl-carousel">
+                <a target="_blank" href="https://dkartedigital.netlify.app/">
+                    <div class="card" id="c1"></div>
+                </a></a>
+                <a target="_blank" href="https://dienikwi.github.io/siteAfrodite/">
+                    <div class="card" id="c2"></div>
+                </a>
+                <a target="_blank" href="https://calculadora-react-dienikwi.vercel.app/">
+                    <div class="card" id="c3"></div>
+                </a>
+                <a target="_blank" href="https://buscar-cep-react.vercel.app/">
+                    <div class="card" id="c4"></div>
+                </a>
+                <a target="_blank" href="https://lista-tarefas-react-beryl.vercel.app/">
+                    <div class="card" id="c5"></div>
+                </a>
+            </div>
+        </div>
+
+        <script>
+            $(".carousel").owlCarousel({
+                loop: true,
+                margin: 25,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                nav: true,
+                navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                }
+            })
+        </script>
+    </div>
+    <div class="centro">
+        <a href="./projetos.html" id="bt-info"> Mais informações </a>
+    </div>
     <div class="canto"><img src="assets/images/background.svg"></div>
 </body>
 
