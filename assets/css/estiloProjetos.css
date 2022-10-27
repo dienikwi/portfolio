@@ -53,15 +53,23 @@
 }
 
 #c4 {
-    background: url(../images/foto2.jpg) no-repeat center center/cover;
+    background: url(../images/foto4.jpg) no-repeat center center/cover;
 }
 
 #c5 {
-    background: url(../images/foto1.jpg) no-repeat center center/cover;
+    background: url(../images/foto5.jpg) no-repeat center center/cover;
 }
 
 #c6 {
-    background: url(../images/foto3.jpg) no-repeat center center/cover;
+    background: url(../images/foto6.jpg) no-repeat center center/cover;
+}
+
+#c7 {
+    background: url(../images/foto7.jpg) no-repeat center center/cover;
+}
+
+#c8 {
+    background: url(../images/foto8.jpg) no-repeat center center/cover;
 }
 
 .owl-dots {
@@ -123,5 +131,9 @@
 
     .titulo-projetos-recentes label {
         font-size: 15px;
+    }
+
+    .carousel .card {
+        height: 300px;
     }
 }
